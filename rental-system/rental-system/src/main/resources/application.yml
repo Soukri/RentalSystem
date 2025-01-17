@@ -1,0 +1,17 @@
+# Βασικές ρυθμίσεις για Spring Boot
+server.port=8080
+  
+  # Ρύθμιση H2 Database
+spring.datasource.url=jdbc:h2:mem:rentaldb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.h2.console.enabled=true
+  
+  # JPA (Hibernate) Ρυθμίσεις
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+  
+  # Ρυθμίσεις Spring Security (προσωρινές)
+spring.security.user.name=admin
+spring.security.user.password=admin
